@@ -1,0 +1,104 @@
+
+
+body {
+    background-color: #fafafa;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+img.IconApp{
+	width: 34pt;
+
+}
+/*
+.navbar {
+    position: relative;
+} */
+.brand {
+    position: absolute;
+    left: 45%;
+    margin-left: -50px ;  /* 50% of your logo width */
+    display: block;
+
+}
+.navbar-default {
+	background-image:none;
+	background-color: #ffffff;
+
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+div.thumbnail.mapa {
+    
+    position: relative;
+   padding-bottom: 80%; 
+    overflow:hidden;
+    height: 606px;
+
+    
+}
+
+iframe.mapa{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 606px;
+   
+ }
+
+
+video{
+    -moz-transform:scale(1) rotate(90deg);
+    -webkit-transform:scale(1) rotate(90deg);
+    -o-transform:scale(1) rotate(90deg);
+    -ms-transform:scale(1) rotate(90deg);
+    transform:scale(1) rotate(90deg);
+    position:absolute;
+    top: 128px;
+    left: -124px;
+    width:606px;
+    height:360px;
+    
+ } 
+ 
+
+div.thumbnail.video {
+    width:360px;
+    height:606px; 
+    position:relative; 
+    overflow:hidden;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
